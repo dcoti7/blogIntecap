@@ -1,4 +1,24 @@
 
+.buscador{
+  margin-left: 300px;
+}
+#search-box {
+  margin: 20px;
+}
+#search-input {
+  width: 200px;
+  padding: 10px;
+  height: 10px;
+}
+#search-form button {
+  padding: 5px;
+}
+.btn{
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 1em;
+  font-size: 15px;
+}
 #card-container {
   display: flex;
   flex-wrap: wrap;
