@@ -1,76 +1,96 @@
-.contenedor-general{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contenedor-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-header{
-    color: white;
-    padding: 10px 20px;
+header {
+  color: white;
+  padding: 10px 20px;
 }
-.cuerpo{
-    width: 75%;
-    margin: 0 auto;
+.cuerpo {
+  width: 75%;
+  margin: 0 auto;
 }
-.d-block{
-    width: 100vh;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.d-block {
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.object-fit-sm-contain-border-rounded{
-    width: 50%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
+.object-fit-sm-contain-border-rounded {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
-main{
-    padding-bottom: 100px;
+main {
+  padding-bottom: 100px;
 }
-footer{
-    background-color: #6c757d;
-    color: white;
-    padding: 10px 20px;
-    margin-top: auto;
+footer {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 20px;
+  margin-top: auto;
 }
-.footer-bottom{
-   margin-top: 20px;
-   border-top: 1px solid #fff;
-   padding-top: 12px;
-   text-align: center;
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #fff;
+  padding-top: 12px;
+  text-align: center;
 }
-.btn-outline-primary{
-    margin: 0 5px;
+.btn-outline-primary {
+  margin: 0 5px;
 }
-button a{
-    text-decoration: none;
-   
-    
+button a {
+  text-decoration: none;
 }
-.tecno-img{
-    width: 80%;
+.tecno-img {
+  width: 80%;
 }
 
-.nav{
-    display: flex;
-    justify-content: center;
+.nav {
+  display: flex;
+  justify-content: center;
 }
 
-.img-container{
-    display: flex;
-    justify-content: center;
+.img-container {
+  display: flex;
+  justify-content: center;
 }
-img{
-    border-radius: 10px;
-    margin-bottom: 15px;
+img {
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.img-carrusel{
-    width: 100%;
-    height: 50vh;
+.img-carrusel {
+  width: 100%;
+  height: 50vh;
 }
-.btn-outline-primary a:hover{
-    color: white;
+.btn-outline-primary a:hover {
+  color: white;
 }
+
+@media (max-width: 415px) {
+  .btn {
+    font-size:5px;
+    width: 121px;
+  }
+  .btn .nav-link{
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 413px) {
+    .btn {
+      font-size:5px;
+      width: 90px;
+    }
+    .btn .nav-link{
+      
+      font-size: 10px;
+    }
+  }
