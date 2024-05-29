@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function crearArtículo(){
     
-    console.log("articulo Creado con indice: "  + globalIndice);
-    console.log(listaPublicacion[globalIndice]);
-    console.log(listaPublicacion[globalIndice].contenido)
+    /* console.log("articulo Creado con indice: "  + globalIndice); */
+    /* console.log(listaPublicacion[globalIndice]); */
+    /* console.log(listaPublicacion[globalIndice].contenido) */
 
         // Crear elementos HTML
         const main = document.createElement('main');

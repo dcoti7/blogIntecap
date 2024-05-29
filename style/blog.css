@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 .container.principal{
     
     display: flex;
@@ -23,3 +28,12 @@
     display: flex;
     justify-content: center;
 }
+
+.encabezado{
+    margin: 10px;
+}
+
+.nav-item{
+    margin: 0 5px;
+}
+

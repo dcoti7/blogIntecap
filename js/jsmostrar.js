@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function createCard(titulo, resumen, url, indice) {
-  console.log(indice);
+  /* console.log(indice); */
   // Crear el contenedor principal del div
   const cardDiv = document.createElement("div");
   cardDiv.className = "card";
