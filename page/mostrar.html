@@ -11,25 +11,32 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style/cssMostrar.css" />
+    <link rel="stylesheet" href="../style/principal.css">
   </head>
   <body>
     
     <header class="encabezado">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          <button type="button" class="btn btn-outline-secondary">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./mostrar.html">Publicaciones</a>
+          <button type="button" class="btn btn-outline-secondary">
+            <a class="nav-link" href="./mostrar.html">Publicaciones</a>
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./post.html">Publicar</a>
+          <button type="button" class="btn btn-outline-secondary">
+            <a class="nav-link" href="./post.html">Publicar</a>
+          </button>
         </li>
         <li class="buscador">
           <div id="search-box">
-            <form id="search-form">
-                <input type="text" id="search-input" placeholder="Buscar...">
-                <button class="btn" type="submit">Buscar</button>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
         </div>
         <div id="results">
@@ -44,6 +51,12 @@
       
       
     </div>
+
+    <footer>
+      <div class="footer-bottom">
+        <p>© 2024 Nuestro Blog. Todos los derechos reservados</p>
+      </div>
+    </footer>
 
     <script src="../js/jsmostrar.js"></script>
 
