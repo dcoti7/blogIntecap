@@ -11,116 +11,129 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style/css.css" />
+    <link rel="stylesheet" href="../style/principal.css">
   </head>
   <body>
-
     <header class="encabezado">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          <button type="button" class="btn btn-outline-secondary">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./mostrar.html">Publicaciones</a>
+          <button type="button" class="btn btn-outline-secondary">
+            <a class="nav-link" href="./mostrar.html">Publicaciones</a>
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./post.html">Publicar</a>
+          <button type="button" class="btn btn-outline-secondary">
+            <a class="nav-link" href="./post.html">Publicar</a>
+          </button>
         </li>
       </ul>
     </header>
 
-    <section class="vh-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-            class="img-fluid"
-            alt="Sample image"
-          />
+    <main>
+      <section class="vh-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-9 col-lg-6 col-xl-5">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+              class="img-fluid"
+              alt="Sample image"
+            />
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+            <form id="formulario">
+              <!-- Título -->
+              <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="titulo"
+                  ><strong>TÍTULO</strong></label
+                >
+                <input
+                  type="text"
+                  id="titulo"
+                  class="form-control form-control-lg"
+                  placeholder="Ingrese el título del artículo" required
+                />
+              </div>
+
+              <!-- Contenido -->
+              <div class="mb-3">
+                <label for="contenido" class="form-label"
+                  ><strong>CONTENIDO</strong></label
+                >
+                <textarea
+                  class="form-control"
+                  id="contenido"
+                  rows="6"
+                  style="resize: none" required
+                ></textarea>
+              </div>
+
+              <!-- Resumen -->
+              <div class="mb-3">
+                <label for="resumen" class="form-label"
+                  ><strong>RESUMEN</strong></label
+                >
+                <textarea
+                  class="form-control"
+                  id="resumen"
+                  rows="4"
+                  style="resize: none"
+                  maxlength="100" required
+                ></textarea>
+              </div>
+
+              <!-- Url -->
+              <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form3Example3"
+                  ><strong>URL IMG</strong></label
+                >
+                <input
+                  type="url"
+                  id="url"
+                  class="form-control form-control-lg"
+                  placeholder="https://example.com" required
+                />
+              </div>
+
+              <!-- Nombre -->
+              <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form3Example3"
+                  ><strong>NOMBRE</strong></label
+                >
+                <input
+                  type="text"
+                  id="nombre"
+                  class="form-control form-control-lg"
+                  placeholder="Ingrese tu nombre" required
+                />
+              </div>
+
+              <!-- Bottón -->
+              <div class="text-center text-lg-start mt-4 pt-2">
+                <button
+                  type="submit"
+                  data-mdb-button-init
+                  data-mdb-ripple-init
+                  class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem"
+                >
+                  Publicar
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-          <form id="formulario">
-            <!-- Título -->
-            <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="titulo"
-                ><strong>TÍTULO</strong></label
-              >
-              <input
-                type="text"
-                id="titulo"
-                class="form-control form-control-lg"
-                placeholder="Ingrese el título del artículo" required
-              />
-            </div>
-
-            <!-- Contenido -->
-            <div class="mb-3">
-              <label for="contenido" class="form-label"
-                ><strong>CONTENIDO</strong></label
-              >
-              <textarea
-                class="form-control"
-                id="contenido"
-                rows="6"
-                style="resize: none" required
-              ></textarea>
-            </div>
-
-            <!-- Resumen -->
-            <div class="mb-3">
-              <label for="resumen" class="form-label"
-                ><strong>RESUMEN</strong></label
-              >
-              <textarea
-                class="form-control"
-                id="resumen"
-                rows="4"
-                style="resize: none"
-                maxlength="100" required
-              ></textarea>
-            </div>
-
-            <!-- Url -->
-            <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="form3Example3"
-                ><strong>URL IMG</strong></label
-              >
-              <input
-                type="url"
-                id="url"
-                class="form-control form-control-lg"
-                placeholder="https://example.com" required
-              />
-            </div>
-
-            <!-- Nombre -->
-            <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="form3Example3"
-                ><strong>NOMBRE</strong></label
-              >
-              <input
-                type="text"
-                id="nombre"
-                class="form-control form-control-lg"
-                placeholder="Ingrese tu nombre" required
-              />
-            </div>
-
-            <!-- Bottón -->
-            <div class="text-center text-lg-start mt-4 pt-2">
-              <button
-                type="submit"
-                data-mdb-button-init
-                data-mdb-ripple-init
-                class="btn btn-primary btn-lg"
-                style="padding-left: 2.5rem; padding-right: 2.5rem"
-              >
-                Publicar
-              </button>
-            </div>
-          </form>
-        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-bottom">
+        <p>© 2024 Nuestro Blog. Todos los derechos reservados</p>
       </div>
-    </section>
+    </footer>
 
     <!-- <div id="card-container"></div> -->
 
@@ -130,5 +143,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../js/js.js"></script>
+    <script src="../"></script>
   </body>
 </html>
