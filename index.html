@@ -14,37 +14,40 @@
     <!-- <script src="js/buscador.js"></script> -->
   </head>
   <body>
+    
     <!-- aca comienza el encabezado  -->
-    <header class="encabezado">
+    <header class="nav">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <button type="button" class="btn btn-outline-secondary">
+          <button type="button" class="btn btn-outline-primary">
             <a class="nav-link" href="index.html">Inicio</a>
           </button>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-outline-secondary">
+          <button type="button" class="btn btn-outline-primary">
             <a class="nav-link" href="./page/mostrar.html">Publicaciones</a>
           </button>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-outline-secondary">
+          <button type="button" class="btn btn-outline-primary">
             <a class="nav-link" href="./page/post.html">Publicar</a>
           </button>
         </li>
       </ul>
     </header>
-    <div>
+
+    <div class="container">
+    <div class="carousel-container">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/img1.jpg" class="d-block w-100" alt="..." />
+            <img class="img-carrusel" src="./img/img1.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./img/img2.jpg" class="d-block w-100" alt="..." />
+            <img class="img-carrusel" src="./img/img2.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./img/img3.jpg" class="d-block w-100" alt="..." />
+            <img class="img-carrusel" src="./img/img3.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -140,11 +143,14 @@
               sociedad en relación con la tecnología:
             </p>
           </div>
-          <img
+          <div class="img-container">
+            <img class="tecno-img"
             src="./img/img4.jpg"
             class="object-fit-sm-contain-border-rounded"
             alt="..."
           />
+          </div>
+          
         </div>
         <div>
           <ol class="list-group list-group-numbered">
@@ -181,6 +187,7 @@
         </div>
       </section>
     </main>
+  </div>
     <!-- aca inicia la parte del footer -->
     <footer>
       <div class="footer-bottom">

@@ -6,21 +6,16 @@ body{
 .buscador{
   margin-left: 300px;
 }
-#search-box {
+/* #search-box {
   margin: 20px;
-}
+} */
 #search-input {
   width: 200px;
   padding: 10px;
   height: 35px;
 }
 
-.btn{
-  height: 36px;
-  border: 1.2px solid black;
-  border-radius: 1em;
-  font-size: 15px;
-}
+
 #card-container {
   display: flex;
   flex-wrap: wrap;
