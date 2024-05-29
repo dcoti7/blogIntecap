@@ -1,3 +1,8 @@
+header{
+    /* background-color: #6c757d; */
+    color: white;
+    padding: 10px 20px;
+}
 .cuerpo{
     width: 75%;
     margin: 0 auto;
@@ -27,4 +32,17 @@ footer{
    border-top: 1px solid #fff;
    padding-top: 12px;
    text-align: center;
+}
+.btn{
+    border: none;
+    margin: 15px;
+   
+}
+button a{
+    text-decoration: none;
+   
+    
+}
+button a:hover{
+    color: white;
 }
