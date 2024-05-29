@@ -36,10 +36,6 @@ body{
   height: 18rem;
 }
 
-.resultados{
+#results{
   color: #5b8cff;
 }
-/* #search-form{
-  color: #5b8cff;
-} */
-
