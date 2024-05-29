@@ -10,8 +10,7 @@ document.getElementById('search-form').addEventListener('submit', function(e) {
     // Filtrar y encontrar el div que contiene la palabra clave
     contentDivs.forEach(function(div) {
       var titulo = div.querySelector('.card-title').textContent.toLowerCase();
-      var resumen = div.querySelector('.card-text').textContent.toLowerCase();
-      if(titulo.includes(inputVal) || resumen.includes(inputVal)) {
+      if(titulo.includes(inputVal)){
         // Crear un nuevo elemento de enlace <a>
         var a = document.createElement('a');
         // Establecer el texto del enlace con el título del elemento
