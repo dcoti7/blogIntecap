@@ -90,7 +90,7 @@ img {
 
 
 
-@media (max-width: 415px) {
+@media (max-width: 430px) {
   .btn {
     font-size:5px;
     width: 121px;
@@ -101,7 +101,7 @@ img {
   }
 }
 
-@media (max-width: 413px) {
+@media (max-width: 414px) {
     .btn {
       font-size:5px;
       width: 90px;
