@@ -33,11 +33,23 @@ body{
 }
 
 #results{
-  color: #5b8cff;
+  color: white;
 }
 
 #search-form{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+#search-form #boton-buscar{
+  color:#0d6efd ;
+}
+#search-form #boton-buscar:hover{
+  color:white ;
+}
+
+#results a{
+  color: white;
 }

@@ -30,7 +30,8 @@ main {
   padding-bottom: 100px;
 }
 footer {
-  background-color: #6c757d;
+  background-color: #34507a;
+  /* background-color: #6c757d; */
   color: white;
   padding: 10px 20px;
   margin-top: auto;
@@ -55,14 +56,20 @@ header.nav {
   /* top: 0;
   left: 0; */
   width: 100%;
-  background-color: white; 
+  background-color: rgb(6, 86, 157); 
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/fondo-nav.png");
+  /* background-image: url("../img/fondo-nav.png"); */
   background-size: 100% auto;
   z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
  
+}
+.nav .btn{
+  background-color: white;
+}
+.nav .btn:hover{
+  background-color: #0d6efd;
 }
 
 .nav {
